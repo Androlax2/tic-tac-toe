@@ -1,0 +1,16 @@
+{
+  "name": "TicTacToe",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npx webpack -w"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.7",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
